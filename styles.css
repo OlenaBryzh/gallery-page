@@ -232,6 +232,7 @@ a {
   #box-6 {
   grid-column: 2/3;
   grid-row: 4/5;
+  grid-gap: 10px;
   }
   #box-7 {
     grid-column: 1/2;

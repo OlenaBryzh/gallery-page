@@ -126,7 +126,7 @@ a {
   border-color: rgb(161, 66, 66, .87);
 }
 /* add media for smaller devises */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .outer-container {
     max-width: 600px;
     margin: 0 auto;
@@ -162,7 +162,7 @@ a {
     grid-row: 3/4;
   }
   #text {
-  padding: 60px;
+  padding: 15% 10%;
   }
 }
 
