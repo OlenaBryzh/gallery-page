@@ -125,12 +125,12 @@ a {
   border-bottom: 2px solid;
   border-color: rgb(161, 66, 66, .87);
 }
-
-@media (max-width: 600px) {
+/* add media for smaller devises */
+@media screen and (max-width: 600px) {
   .outer-container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0px 0 30px 0;
+    padding: 0px;
   }
   .container {
     padding: 0;
@@ -165,3 +165,4 @@ a {
   padding: 60px;
   }
 }
+
